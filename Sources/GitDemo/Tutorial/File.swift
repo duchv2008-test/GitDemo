@@ -7,6 +7,6 @@
 
 import Foundation
 
-class Tutorial {
+class Tutorial2 {
     // TEST
 }
