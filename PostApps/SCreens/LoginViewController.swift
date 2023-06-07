@@ -36,7 +36,6 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    
     @IBAction func handleLoginTap(sender: UIButton) {
         let username = usernameTF.text ?? ""
         let password = passwordTF.text ?? ""

@@ -16,7 +16,6 @@ protocol LoginPresenter {
 }
 
 /**
- Implement
  */
 class LoginPresenterImpl: LoginPresenter {
     var controller: LoginDisplay
@@ -36,7 +35,6 @@ class LoginPresenterImpl: LoginPresenter {
         if username.isEmpty {
             controller.validateFailure(message: "Username is required")
         } else {
-            
             // Show loading
             authRepository.login(username: username, password: password) { response in
                 ///
@@ -47,7 +45,6 @@ class LoginPresenterImpl: LoginPresenter {
                 /// tắt loading
                 /// Trả về message lỗi cho viewcontroller
             }
-
         }
     }
 }

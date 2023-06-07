@@ -93,6 +93,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		28387D3E2A309EFD00AFEAB6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				284A16582A2E23AF00F4661C /* AuthAPIService */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		284A16522A2E218D00F4661C /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,12 +117,12 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		284A16582A2E23AF00F4661C /* APIServices */ = {
+		284A16582A2E23AF00F4661C /* AuthAPIService */ = {
 			isa = PBXGroup;
 			children = (
 				284A16592A2E23D900F4661C /* AuthAPIService.swift */,
 			);
-			path = APIServices;
+			path = AuthAPIService;
 			sourceTree = "<group>";
 		};
 		28C9CA422A2E0A03002C3A1C = {
@@ -141,7 +149,7 @@
 		28C9CA4D2A2E0A03002C3A1C /* PostApps */ = {
 			isa = PBXGroup;
 			children = (
-				284A16582A2E23AF00F4661C /* APIServices */,
+				28387D3E2A309EFD00AFEAB6 /* Networking */,
 				284A16552A2E225A00F4661C /* Entities */,
 				284A16522A2E218D00F4661C /* Repositories */,
 				28C9CA742A2E0FFF002C3A1C /* SCreens */,
